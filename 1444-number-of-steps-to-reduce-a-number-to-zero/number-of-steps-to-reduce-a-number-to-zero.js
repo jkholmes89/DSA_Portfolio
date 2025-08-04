@@ -5,8 +5,8 @@ const numberOfSteps = function (num) {
       num /= 2;
       steps++;
     } else {
-      num -= 1;
-      steps++;
+      num =num - 1;
+      steps++
     }
   }
   return steps;
